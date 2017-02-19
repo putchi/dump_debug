@@ -81,7 +81,7 @@ function dump_debug($input, $collapse = false) {
                     $notEmpty = true;
 
                     if ($isTerminal) {
-                        echo $type . ($type_length !== null ? "(" . $type_length . ")" : "") . " " . ($type === "Array" ? "[" : "{");
+                        echo $type . ($type_length !== null ? "(" . $type_length . ")" : "") . " " . ($type === "Object" ? "{" : "[");
                     } else {
                         $id = substr(md5(rand().":".$key.":".$level), 0, 8);
 

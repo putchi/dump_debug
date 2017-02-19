@@ -1,7 +1,5 @@
 <?php
 
-
-
 /**
  * A function to var_dump given args (in a pretty way) and stop all processes at the end.
  *

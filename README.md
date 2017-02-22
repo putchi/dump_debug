@@ -1,6 +1,6 @@
 # Dump Debug
 Alternative for Laravel's dd function (PHP >= 5.0)
-- compatibale for bash (terminal) use also.
+(!) compatibale for bash (terminal) use also.
 
 @example of usage:
 
